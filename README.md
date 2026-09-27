@@ -15,17 +15,17 @@ En el taller anterior programé un perceptrón, una red de una capa y una red mu
 
 | Notebook | Herramienta | Problema | Qué se hace |
 |---|---|---|---|
-| [`01_NumPy_Activaciones_Backprop_Binaria.ipynb`](01NumPyActivacionesBackpropBinaria.ipynb) | Python + NumPy | Binario: diagnóstico de tumores (benigno / maligno) | Perceptrón, red de una capa y red multicapa rediseñados. Funciones Sigmoide y ReLU, retropropagación, entropía cruzada, mini-lotes, separación entrenamiento / prueba |
-| [`02_MNIST_TensorFlow_Keras.ipynb`](02MNISTTensorFlowKeras.ipynb) | TensorFlow + Keras | Multiclase: dígitos escritos a mano (0–9) | Red densa 784 → 128 → 64 → 10 con softmax. Matriz de confusión, análisis de errores, experimento ReLU vs. Sigmoide |
-| [`03_MNIST_PyTorch.ipynb`](03MNISTPyTorch.ipynb) | PyTorch | Multiclase: dígitos escritos a mano (0–9) | La misma red replicada en PyTorch con el ciclo de entrenamiento escrito a mano. Comparación Keras vs. PyTorch |
+| [`01 NumPyActivacionesBackpropBinaria.ipynb`](01%20NumPyActivacionesBackpropBinaria.ipynb) | Python + NumPy | Binario: diagnóstico de tumores (benigno / maligno) | Perceptrón, red de una capa y red multicapa rediseñados. Funciones Sigmoide y ReLU, retropropagación, entropía cruzada, mini-lotes, separación entrenamiento / prueba |
+| [`02 MNISTTensorFlowKeras.ipynb`](02%20MNISTTensorFlowKeras.ipynb) | TensorFlow + Keras | Multiclase: dígitos escritos a mano (0–9) | Red densa 784 → 128 → 64 → 10 con softmax. Matriz de confusión, análisis de errores, experimento ReLU vs. Sigmoide |
+| [`03 MNISTPyTorch.ipynb`](03%20MNISTPyTorch.ipynb) | PyTorch | Multiclase: dígitos escritos a mano (0–9) | La misma red replicada en PyTorch con el ciclo de entrenamiento escrito a mano. Comparación Keras vs. PyTorch |
 
 ## Abrir en Google Colab
 
 | Notebook | |
 |---|---|
-| 1. NumPy: activaciones, backpropagation y clasificación binaria | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/RubyDayana/redes-neuronales-ii/blob/main/01NumPyActivacionesBackpropBinaria.ipynb) |
-| 2. MNIST con TensorFlow + Keras | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/RubyDayana/redes-neuronales-ii/blob/main/02MNISTTensorFlowKeras.ipynb) |
-| 3. MNIST con PyTorch | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/RubyDayana/redes-neuronales-ii/blob/main/03MNISTPyTorch.ipynb) |
+| 1. NumPy: activaciones, backpropagation y clasificación binaria | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/RubyDayana/redes-neuronales-ii/blob/main/01%20NumPyActivacionesBackpropBinaria.ipynb) |
+| 2. MNIST con TensorFlow + Keras | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/RubyDayana/redes-neuronales-ii/blob/main/02%20MNISTTensorFlowKeras.ipynb) |
+| 3. MNIST con PyTorch | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/RubyDayana/redes-neuronales-ii/blob/main/03%20MNISTPyTorch.ipynb) |
 
 Haz clic en el botón y luego en `Entorno de ejecución → Ejecutar todo`. No hay que instalar nada: Colab ya trae NumPy, TensorFlow y PyTorch. Los notebooks de MNIST tardan unos 2 minutos cada uno (menos si se activa la GPU en `Entorno de ejecución → Cambiar tipo de entorno`).
 
@@ -55,8 +55,8 @@ Los errores más comunes en ambas son entre dígitos que se parecen al escribirl
 
 | Archivo | Descripción |
 |---|---|
-| `01_NumPy_Activaciones_Backprop_Binaria.ipynb` | Parte 1: modelos en NumPy, con sus resultados |
-| `02_MNIST_TensorFlow_Keras.ipynb` | Parte 2: MNIST con Keras, con sus resultados |
-| `03_MNIST_PyTorch.ipynb` | Parte 3: MNIST con PyTorch, con sus resultados |
+| `01 NumPyActivacionesBackpropBinaria.ipynb` | Parte 1: modelos en NumPy, con sus resultados |
+| `02 MNISTTensorFlowKeras.ipynb` | Parte 2: MNIST con Keras, con sus resultados |
+| `03 MNISTPyTorch.ipynb` | Parte 3: MNIST con PyTorch, con sus resultados |
 | `Informe_Redes_Neuronales_II.pdf` | Documento técnico con la explicación de los modelos, resultados y evidencias |
 | `README.md` | Este archivo |
